@@ -1,0 +1,33 @@
+body {
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+}
+
+footer {
+    background-color: #353A3F;
+    color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    padding: 20px;
+}
+
+.results tr[visible='false'],
+.no-result {
+    display: none;
+}
+
+.results tr[visible='true'] {
+    display: table-row;
+}
+
+.counter {
+    padding: 8px;
+    color: #ccc;
+}
+
+a.bloqueado {
+    background-color: red;
+    color: white;
+}

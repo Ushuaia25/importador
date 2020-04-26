@@ -1,0 +1,41 @@
+{
+    "name": "importador",
+    "version": "0.0.1",
+    "description": "Importador para pedidos y exportación al sistema de correos express",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server/server.js"
+    },
+    "author": "Imanol A. Prados",
+    "license": "ISC",
+    "dependencies": {
+        "@handlebars/allow-prototype-access": "^1.0.3",
+        "bcrypt": "^4.0.1",
+        "body-parser": "^1.19.0",
+        "cookie-parser": "^1.4.5",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "excel4node": "^1.7.2",
+        "express": "^4.17.1",
+        "express-fileupload": "^1.1.7-alpha.3",
+        "express-handlebars": "^4.0.3",
+        "flash": "^1.1.0",
+        "fs": "0.0.1-security",
+        "google-auth-library": "^6.0.0",
+        "handlebars": "^4.7.6",
+        "hbs": "^4.1.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.9.7",
+        "mongoose-unique-validator": "^2.0.3",
+        "path": "^0.12.7",
+        "read-excel-file": "^4.0.6",
+        "underscore": "^1.10.2",
+        "xlsx": "^0.15.6"
+    },
+    "keywords": [
+        "Importador",
+        "solomo"
+    ],
+    "devDependencies": {}
+}

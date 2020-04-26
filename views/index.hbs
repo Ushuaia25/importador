@@ -1,0 +1,101 @@
+<div class="row  mt-5">
+  
+    <div class="col-1"></div>
+    <div class="col-10">
+      <div id="cardGrupo4" class="card text-left shadow container-fluid p-3 mt-3">
+        <form autocomplete="off">  
+          <fieldset id="fieldsetGrupobodeca" enabled="">     
+            <div id="formGroup1" class="form-group">        
+            <h5 id="labelIndicebodeca" for="exampleFormControlInput1"> 1.- El fichero de bodeca</h5>
+              <div class="custom-file">  
+                <input name="file" type="file" id="inputPreguntabodeca" data-tipo="5" class="custom-file-input" accept=".xlsx" onchange="guardarFichero(this,'bodeca');">  
+                <label id="labelSubirFicherobodeca" class="custom-file-label" for="customFile" data-browse="Subir">BODECA</label>
+              </div>         
+              <br>     
+            </div>      
+          </fieldset>
+        </form>
+      </div>
+    </div>    
+    <div class="col-1"></div>
+
+</div>
+
+<div class="row">
+  
+    <div class="col-1"></div>
+    <div class="col-10">
+      <div id="cardGrupo4" class="card text-left shadow container-fluid p-3 mt-3">
+        <form autocomplete="off">  
+          <fieldset id="fieldsetGruposolomo" enabled="">     
+            <div id="formGroup1" class="form-group">        
+            <h5 id="labelIndicesolomo" for="exampleFormControlInput1"> 2.- Introduce el fichero de Seller SOLOMO</h5>
+              <div class="custom-file">  
+                <input name="file" type="file" id="inputPreguntasolomo" data-tipo="5" class="custom-file-input" accept=".txt" onchange="guardarFichero(this,'solomo');">  
+                <label id="labelSubirFicherosolomo" class="custom-file-label" for="customFile" data-browse="Subir">SOLOMO</label>
+              </div>         
+              <br>     
+            </div>      
+          </fieldset>
+        </form>
+      </div>
+    </div>    
+    <div class="col-1"></div>
+
+</div>
+
+<div class="row">
+  
+    <div class="col-1"></div>
+    <div class="col-10">
+      <div id="cardGrupo4" class="card text-left shadow container-fluid p-3 mt-3">
+        <form autocomplete="off">  
+          <fieldset id="fieldsetGrupodue" enabled="">     
+            <div id="formGroup1" class="form-group">        
+            <h5 id="labelIndicedue" for="exampleFormControlInput1"> 2.- Introduce el fichero de Seller DUE</h5>
+              <div class="custom-file">  
+                <input name="file" type="file" id="inputPreguntadue" data-tipo="5" class="custom-file-input" accept=".txt" onchange="guardarFichero(this,'due');">  
+                <label id="labelSubirFicherodue" class="custom-file-label" for="customFile" data-browse="Subir">DUE</label>
+              </div>         
+              <br>     
+            </div>      
+          </fieldset>
+        </form>
+      </div>
+    </div>    
+    <div class="col-1"></div>
+
+</div>
+
+<div class="row mt-5">
+
+  <div class="col-3"></div>
+  <div class="col-6 text-center">
+    <a id="btnGenerarSalidaCorreos" class="btn btn-primary" href="javascript:generarArchivoCorreos();" role="button">GENERAR ARCHIVO DE CORREOS</a>
+  </div>
+  <div class="col-3"></div>
+
+</div>
+
+<div id="confirmacionCorreos" class="row">
+  
+    <div class="col-1"></div>
+    <div class="col-10">
+      <div id="cardGrupo4" class="card text-left shadow container-fluid p-3 mt-3">
+        <form autocomplete="off">  
+          <fieldset id="fieldsetGrupoConfirmacionCorreos" enabled="">     
+            <div id="formGroup1" class="form-group">        
+            <h5 id="labelIndiceConfirmacionCorreos" for="exampleFormControlInput1"> #1.- Introduce el fichero de Listado de Correos</h5>
+              <div class="custom-file">  
+                <input name="file" type="file" id="inputPreguntaConfirmacionCorreos" data-tipo="5" class="custom-file-input" accept=".xls" onchange="adjuntarConfirmacionEnvio(this);">  
+                <label id="labelSubirFicheroConfirmacionCorreos" class="custom-file-label" for="customFile" data-browse="Subir">FICHERO TRACKING CORREOS</label>
+              </div>         
+              <br>     
+            </div>      
+          </fieldset>
+        </form>
+      </div>
+    </div>    
+    <div class="col-1"></div>
+
+</div>
