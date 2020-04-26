@@ -17,11 +17,11 @@ class BodecaLine {
             this.restodireccionremitente = "Gojar";
             this.nombredestinatario = array[8];
             this.contactodestinatario = array[16];
-            this.telefonodestinatario = array[9];
+            this.telefonodestinatario = array[9].replace("+34", "");
             this.emaildestinatario = array[7];
             this.paisdestinatario = "ES";
             this.codigopostaldestinatario = array[22];
-            this.localidaddestinatario = array[21];
+            this.localidaddestinatario = array[20];
             this.direcciondestinatario = array[17];
             this.numerodestinatario = ".";
             this.restodirecciondestinatario = array[18];
@@ -51,7 +51,7 @@ class BodecaLine {
             this.restodireccionremitente = "Gojar";
             this.nombredestinatario = array[11];
             this.contactodestinatario = array[11];
-            this.telefonodestinatario = array[13];
+            this.telefonodestinatario = array[13].replace("+34", "");
             this.emaildestinatario = array[14];
             this.paisdestinatario = "ES";
             this.codigopostaldestinatario = array[16];

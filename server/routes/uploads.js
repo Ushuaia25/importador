@@ -331,6 +331,46 @@ function depurarDocumento(documento) {
         }
     });
 
+    documentoLimpio.forEach(lin => {
+
+        if ((lin.bultos > 2) && (lin.bultos <= 6)) {
+            lin.bultos = 1;
+        }
+
+        if ((lin.bultos > 6) && (lin.bultos <= 8)) {
+            lin.bultos = 1 + lin.bultos - 6;
+        }
+
+        if ((lin.bultos > 8) && (lin.bultos <= 12)) {
+            lin.bultos = 2;
+        }
+
+        if ((lin.bultos > 12) && (lin.bultos <= 14)) {
+            lin.bultos = 2 + lin.bultos - 12;
+        }
+
+        if ((lin.bultos > 14) && (lin.bultos <= 18)) {
+            lin.bultos = 3;
+        }
+
+        if ((lin.bultos > 18) && (lin.bultos <= 20)) {
+            lin.bultos = 3 + lin.bultos - 18;
+        }
+
+        if ((lin.bultos > 20) && (lin.bultos <= 24)) {
+            lin.bultos = 4;
+        }
+
+        if ((lin.bultos > 24) && (lin.bultos <= 26)) {
+            lin.bultos = 4 + lin.bultos - 24;
+        }
+
+        if ((lin.bultos > 26) && (lin.bultos <= 30)) {
+            lin.bultos = 5;
+        }
+
+    });
+
     return documentoLimpio;
 
 }
