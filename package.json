@@ -30,7 +30,7 @@
         "mongoose-unique-validator": "^2.0.3",
         "path": "^0.12.7",
         "read-excel-file": "^4.0.6",
-        "underscore": "^1.10.2",
+        "underscore": "^1.12.1",
         "xlsx": "^0.15.6"
     },
     "keywords": [
