@@ -31,7 +31,7 @@
         "path": "^0.12.7",
         "read-excel-file": "^4.0.6",
         "underscore": "^1.10.2",
-        "xlsx": "^0.15.6"
+        "xlsx": "^0.17.0"
     },
     "keywords": [
         "Importador",
